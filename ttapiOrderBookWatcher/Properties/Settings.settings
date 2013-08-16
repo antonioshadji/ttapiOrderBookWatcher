@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ttapiOrderBookWatcher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="USER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ANTONIOS</Value>
+    </Setting>
+    <Setting Name="PASSWORD" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1234</Value>
+    </Setting>
+    <Setting Name="ACCOUNT" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">X5302</Value>
+    </Setting>
+    <Setting Name="ACCT_TYPE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">A1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
