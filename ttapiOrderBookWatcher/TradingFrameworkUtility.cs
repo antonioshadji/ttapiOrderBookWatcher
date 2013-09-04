@@ -21,16 +21,17 @@ namespace ttapiOrderBookWatcher
             Debug.Listeners.Add(log);
         }
 
-        public void prod_write(string text, params object[] data)
+        public void trace(string text, params object[] data)
         {
             Trace.WriteLine(string.Format(text, data));
-            log.Flush();
+            log.Flush(); 
         }
 
-        public void dbug_write(string text, params object[] data)
+        public void debug(string text, params object[] data)
         {
             Debug.WriteLine(string.Format(text, data));
-            log.Flush();
+            log.Flush(); 
         }
+
     }
 }

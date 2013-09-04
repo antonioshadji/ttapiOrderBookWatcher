@@ -82,6 +82,7 @@
     </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="TradingFrameworkUtility.cs" />
+    <Compile Include="TradingStrategy.cs" />
     <Compile Include="TTAPIEvents.cs" />
   </ItemGroup>
   <ItemGroup>

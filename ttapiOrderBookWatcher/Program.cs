@@ -13,8 +13,8 @@ namespace ttapiOrderBookWatcher
         {
             TradingFrameworkUtility TFU = new TradingFrameworkUtility();
 
-            TFU.prod_write("{0}", Environment.GetCommandLineArgs()[0]);
-            TFU.prod_write("started at: {0}", DateTime.Now);
+            TFU.trace("{0}", Environment.GetCommandLineArgs()[0]);
+            TFU.trace("started at: {0}", DateTime.Now);
         
             using (TTAPIEvents tt = new TTAPIEvents())
             {
